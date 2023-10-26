@@ -14,6 +14,20 @@ header {
     height: 24px;
 }
 
+.black_footer {
+    text-align: center;
+} 
+
+.black-img {
+    max-height: 64px;
+}
+
+.black-name {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #007bff;
+}
+
 @media (max-width: 595px) {
     .header_h2 {
         font-size: 18px;
