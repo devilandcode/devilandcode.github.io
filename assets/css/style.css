@@ -28,6 +28,16 @@ header {
     color: #007bff;
 }
 
+#year {
+    font-size: 10px;
+}
+#line__title {
+    font-size: 15px;
+}
+#line__subtitle {
+    font-size: 13px;
+}   
+
 @media (max-width: 595px) {
     .header_h2 {
         font-size: 18px;

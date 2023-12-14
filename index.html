@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Резюме</title>
+    <title>CV</title>
     <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="welcome">
-            <h2 class="header_h2">Резюме &nbsp;&nbsp;&nbsp;<img src="assets/images/shuffle-solid.svg" class="link a-solid fa-shuffle" style="color: #1e3050;"alt="">&nbsp;&nbsp;&nbsp;PHP BackEnd Разработчик</h2>
+            <h1 class="header_h1 text-center">PHP Developer</h1>
         </div>
     </header>
     <div class="content-wrapper">
@@ -28,25 +28,23 @@
                 <span class="badge badge-white badge-pill profile-designation">BackEnd Developer</span>
             </div>
             <nav class="social-links">
-                <a href="https://www.facebook.com/kirill.makovski" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://github.com/devilandcode" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kirill-makovski/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
             </nav>
             <div class="widget">
                 <h5 class="widget-title">personal information</h5>
                 <div class="widget-content">
-                    <p>BIRTHDAY : 17 июня 1988</p>
+                    <p>BIRTHDAY : 17 june 1988</p>
                     <p>PHONE : +375 29 602 3380</p>
                     <p> MAIL : devilandcode@proton.me</p>
-                    <p>Location : Минск, Беларусь</p>
+                    <p>Location : Minsk, Belarus</p>
                 </div>
             </div>
             <div class="widget card">
                 <div class="card-body">
                     <div class="widget-content">
                         <h5 class="widget-title card-title">LANGUAGES</h5>
-                        <p><strong>English</strong> : <br> Комфортно читаю тех документацию. Разговорный слабоват.<br>
-                            Долгое время не было практики. 
-                            Когда-то был уровень: <br> Upper-Intermediate<br> Ходил на курсы в International House</p>
+                        <p><strong>English</strong> : <span class="fw-bold">A2 - B1</span>
                     </div>
                 </div>
             </div>
@@ -54,11 +52,11 @@
                 <div class="card-body">
                     <div class="widget-content">
                         <h5 class="widget-title card-title">INTERESTS</h5>
-                        <p>Веб-разработка</p>
-                        <p>Экономика</p>
-                        <p>Спорт</p>
-                        <p>Активный отдых</p>
-                        <p>Музыка</p>
+                        <p class="fw-bold">Web development</p>
+                        <p class="fw-bold">Economics</p>
+                        <p class="fw-bold">Sport</p>
+                        <p class="fw-bold">Active recreation</p>
+                        <p class="fw-bold">Psychology</p>
                     </div>
                 </div>
             </div>
@@ -66,14 +64,7 @@
         <main>
             <section class="intro-section">
                 <h2 class="section-title">Hello there!</h2>
-                <p> &nbsp; Занимаюсь разработкой веб-приложений, телеграм ботов и парсеров используя PHP + Laravel, WordPress. Также
-                    умею реализовать не сложный фронтенд используя фреймворк Bootstrap, обладаю знаниями JS и библиотеки JQuery
-                    необходимыми для верски. Не смотря на то, чо мое обучение началось в феврале 2023 и до сих пор продолжается,
-                    мой коммерческий опыт стартовал в апреле 2023.
-                    <br><br>
-                    &nbsp; До Веб-разработки в должности инженера(далее инженера 1-й категории) по релейной защите и автоматике занимался наладкой микропроцессорных защит
-                    на подстанцих и электростанциях энергосистемы РБ, в должности прораба курировал электромонтажные работы на обьектах
-                    граждноского и проиышленной строительства. Имею действующий Аттестат по специализации - производитель работ(прораб).
+                <p class="fs-6 fw-normal"> I am a person who is open-minded, respectful, adaptive, responsive, social, open to criticism and feedback, and a problem-solver.
                 </p>
             </section>
             <section class="resume-section">
@@ -82,23 +73,22 @@
                         <h2 class="section-title">EDUCATION</h2>
                         <ul class="time-line">
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2006 - 2011</span>
-                                <h6 class="time-line-item-title">Инженер по релейной защите и автоматике</h6>
-                                <p class="time-line-item-subtitle">БНТУ - ЭНЕРГЕТИЧЕСКИЙ ФАКУЛЬТЕТ</p>
+                                <span id="year" class=" badge badge-primary">2006 - 2011</span>
+                                <h6 id="line__title" class="time-line-item-title ">БНТУ - Энергетический факультет</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle ">Инженер по релейной защите и автоматике</p>
                             </li>
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2013</span>
-                                <h6 class="time-line-item-title">Курсы повышения квалификации </h6>
-                                <p class="time-line-item-subtitle">ГУ «Центр повышения 
-                                    квалификации руководящих работников и специалистов энергетики»</p>
-                                <p class="time-line-item-content">Тема – «Технические характеристики и особенности наладки миеропроцессорных 
-                                    устройств РЗА»
+                                <span id="year" class="badge badge-primary">2013</span>
+                                <h6 id="line__title" class="time-line-item-title">ГУ «Центр повышения 
+                                    квалификации руководящих работников и специалистов энергетики»</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle">Тема – «Технические характеристики и особенности наладки микропроцессорных 
+                                    устройств РЗА»</p>
+                                <p class="time-line-item-content">
                                 </p>
                             </li>
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2022-2023</span>
-                                <h6 class="time-line-item-title">Курсы по Backend и Frontend разработке</h6>
-                                <p class="time-line-item-subtitle">OTUS, NTSCHOOL и ряд других</p>
+                                <span id="year" class="badge badge-primary">2022 - 2023</span>
+                                <h6 id="line__title" class="time-line-item-title">Web development courses</h6>
                             </li>
                         </ul>
                     </div>
@@ -106,24 +96,24 @@
                         <h2 class="section-title">Experience</h2>
                         <ul class="time-line">
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2011 - 2013</span>
-                                <h6 class="time-line-item-title">Инженер по Наладке и Испытаниям</h6>
-                                <p class="time-line-item-subtitle">РУП "БЕЛЭЛЕКТРОМОНТАЖНАЛАДКА"</p>
+                                <span id="year" class="badge badge-primary">2011 - 2013</span>
+                                <h6 id="line__title" class="time-line-item-title">Инженер по Наладке и Испытаниям</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle">РУП "БЕЛЭЛЕКТРОМОНТАЖНАЛАДКА"</p>
                             </li>
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2013-2021</span>
-                                <h6 class="time-line-item-title">Директор электромонтажной организации</h6>
-                                <p class="time-line-item-subtitle">ЧП "ПРАЙД КОМПАНИ"</p>
+                                <span id="year" class="badge badge-primary">2013 - 2021</span>
+                                <h6 id="line__title" class="time-line-item-title">Директор электромонтажной организации</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle">ЧП "ПРАЙД КОМПАНИ"</p>
                             </li>
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2021-2023</span>
-                                <h6 class="time-line-item-title">Инженер 1-й категории</h6>
-                                <p class="time-line-item-subtitle">ООО "ЭНЕРГОПРОМИС"</p>
+                                <span id="year" class="badge badge-primary">2021 - 2023</span>
+                                <h6 id="line__title" class="time-line-item-title">Инженер 1-й категории</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle">ООО "ЭНЕРГОПРОМИС"</p>
                             </li>
                             <li class="time-line-item">
-                                <span class="badge badge-primary">2023</span>
-                                <h6 class="time-line-item-title">Веб-разработка</h6>
-                                <p class="time-line-item-subtitle">ФРИЛАНС</p>
+                                <span id="year" class="badge badge-primary">2023</span>
+                                <h6 id="line__title" class="time-line-item-title">PHP Developer</h6>
+                                <p id="line__subtitle" class="time-line-item-subtitle">FREELANCE</p>
                             </li>
                         </ul>
                     </div>
@@ -138,7 +128,7 @@
                             <img src="assets/images/002-development.svg" alt="development">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">PHP 8.2</h5>
+                            <h5 class="service-title fs-5">PHP 8+</h5>
                         </div>
                     </div>
                     <div class="media service-card col-lg-6">
@@ -146,10 +136,8 @@
                             <img src="assets/images/002-development.svg" alt="development">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Laravel</h5>
-                            <!-- <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p> -->
+                            <h5 class="service-title fs-5 mb-0">Laravel 10+</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
                         </div>
                     </div>
                     <div class="media service-card col-lg-6">
@@ -157,10 +145,8 @@
                             <img src="assets/images/002-development.svg" alt="development">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Js and JQuery</h5>
-                            <!-- <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p> -->
+                            <h5 class="service-title fs-5 mb-0">MySQL</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
                         </div>
                     </div>
                     <div class="media service-card col-lg-6">
@@ -168,10 +154,44 @@
                             <img src="assets/images/002-development.svg" alt="development">
                         </div>
                         <div class="media-body">
-                            <h5 class="service-title">Linux and Nginx</h5>
-                            <!-- <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p> -->
+                            <h5 class="service-title fs-5 mb-0">Bootstrap/Tailwind</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title fs-5 mb-0">Javascript / JQuery</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title fs-5 mb-0">Linux</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title fs-5 mb-0">Nginx</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title fs-5 mb-0">Git</h5>
+                            <span id="line__subtitle" class="time-line-item-subtitle">Basic knowledge</span>
                         </div>
                     </div>
                 </div>
@@ -184,7 +204,7 @@
             </section>
             <footer>
                 <div class="copyright">
-                    <p>Copyright &copy; 2023 Kirill Makovski</p>
+                    <p class="fs-6">Copyright &copy; 2023 </p>
                 </div>
             </footer>
         </main>
